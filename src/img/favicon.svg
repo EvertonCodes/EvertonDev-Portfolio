@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Fundo transparente -->
+  <rect width="64" height="64" fill="transparent"></rect>
+
+  <!-- Sombra sutil do monograma -->
+  <text x="50%" y="52%" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" alignment-baseline="middle" fill="rgba(0,0,0,0.15)">&lt;EV&gt;</text>
+
+  <!-- Monograma EV principal com leve degradê interno -->
+  <defs>
+    <linearGradient id="gradEV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c95a63;stop-opacity:1"></stop>
+      <stop offset="100%" style="stop-color:#b23a48;stop-opacity:1"></stop>
+    </linearGradient>
+  </defs>
+  <text x="50%" y="50%" font-family="Montserrat, Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" alignment-baseline="middle" fill="url(#gradEV)">&lt;EV&gt;</text>
+</svg>
