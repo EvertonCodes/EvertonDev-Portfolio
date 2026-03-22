@@ -1,3 +1,15 @@
 .vercel
+# arquivos de ambiente (SENHAS)
+.env
 .env.local
+.env.*
+
+# node
+node_modules/
+
+# logs
+npm-debug.log*
+
+# sistema
+.DS_Store
 
